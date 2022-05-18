@@ -1,0 +1,18 @@
+[package]
+name = "alaybey"
+version = "0.0.1"
+authors = ["reaur <reaurr@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+keywords = ["alaybey"]
+categories = ["vm","virtual machine"]
+description = "Alaybey is simple VM which operate basic instructions such as add,sub,div,mul and mod. its allow define variables and usage in operations."
+repository = "https://github.com/drojokef/maggedik"
+homepage = "https://github.com/drojokef/maggedik"
+
+[[bin]]
+name = "alaybey"
+test = false
+bench = false
+
+[dependencies]
